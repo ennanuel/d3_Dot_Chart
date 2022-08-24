@@ -1,1 +1,44 @@
+.dot {
+  stroke: black;
+  opacity: 0.8;
+}
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
+svg {
+  position: relative;
+}
+
+#text {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'calibri';
+}
+
+#tooltip {
+  position: absolute;
+  opacity: 0;
+  background: grey;
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  z-index: 4;
+  font-size: 12px;
+}
+
+#title {
+  text-align: center;
+}
+
+#title p {
+  margin: 0;
+  font-size: 20px;
+}
+
+#title h1 {
+  margin-bottom: 10px;
+}
